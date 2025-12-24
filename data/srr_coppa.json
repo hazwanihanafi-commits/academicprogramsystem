@@ -1,0 +1,77 @@
+[
+  {
+    "standard": "Standard 1 – Programme Development & Delivery",
+    "items": [
+      { "code": "1.1", "label": "PLO selaras dengan MQF Level (mapping PLO → MQF lengkap)." },
+      { "code": "1.2", "label": "Pemetaan CLO–PLO lengkap dan konsisten untuk semua kursus." },
+      { "code": "1.3", "label": "Struktur kurikulum jelas, holistik dan seimbang." },
+      { "code": "1.4", "label": "Strategi pengajaran mematuhi OBE dan SCL." },
+      { "code": "1.5", "label": "Penyemakan kurikulum dengan input penasihat luar didokumenkan." }
+    ]
+  },
+  {
+    "standard": "Standard 2 – Assessment of Student Learning",
+    "items": [
+      { "code": "2.1", "label": "Pelan penilaian selaras dengan CLO dan PLO." },
+      { "code": "2.2", "label": "Instrumen penilaian memenuhi tahap kognitif MQF." },
+      { "code": "2.3", "label": "Moderation dan verification penilaian dilaksanakan." },
+      { "code": "2.4", "label": "CQI penilaian dilaksanakan berasaskan data." }
+    ]
+  },
+  {
+    "standard": "Standard 3 – Student Selection & Support Services",
+    "items": [
+      { "code": "3.1", "label": "Kriteria kemasukan jelas dan dipatuhi." },
+      { "code": "3.2", "label": "Perkhidmatan sokongan pelajar mencukupi." },
+      { "code": "3.3", "label": "Kemajuan pelajar dipantau secara sistematik." }
+    ]
+  },
+  {
+    "standard": "Standard 4 – Academic Staff",
+    "items": [
+      { "code": "4.1", "label": "Kelayakan dan kepakaran staf bersesuaian." },
+      { "code": "4.2", "label": "Agihan beban tugas staf seimbang." },
+      { "code": "4.3", "label": "Pembangunan profesional staf direkodkan." },
+      { "code": "4.4", "label": "Prestasi staf dinilai secara berkala." }
+    ]
+  },
+  {
+    "standard": "Standard 5 – Educational Resources",
+    "items": [
+      { "code": "5.1", "label": "Sumber fizikal dan digital mencukupi." },
+      { "code": "5.2", "label": "Akses dan penyelenggaraan sumber diurus dengan baik." }
+    ]
+  },
+  {
+    "standard": "Standard 6 – Programme Management",
+    "items": [
+      { "code": "6.1", "label": "Struktur tadbir urus program jelas." },
+      { "code": "6.2", "label": "Polisi dan SOP akademik didokumenkan." },
+      { "code": "6.3", "label": "Minit mesyuarat dengan tindakan susulan direkodkan." }
+    ]
+  },
+  {
+    "standard": "Standard 7 – Monitoring, Review & CQI",
+    "items": [
+      { "code": "7.1", "label": "Keberkesanan pengajaran dipantau." },
+      { "code": "7.2", "label": "Input industri dan penasihat luar ditindaklanjuti." },
+      { "code": "7.3", "label": "Penilaian tahunan program dilaksanakan." },
+      { "code": "7.4", "label": "CQI program direkodkan dengan jelas." }
+    ]
+  },
+  {
+    "standard": "Standard 8 – Student Learning Outcomes (PLO)",
+    "items": [
+      { "code": "8.1", "label": "Pengukuran langsung PLO dianalisis." },
+      { "code": "8.2", "label": "Pengukuran tidak langsung PLO dikumpul." },
+      { "code": "8.3", "label": "Pencapaian PLO memenuhi ambang sasaran." }
+    ]
+  },
+  {
+    "standard": "Standard 9 – Leadership, Governance & Administration",
+    "items": [
+      { "code": "9.1", "label": "Sokongan kepimpinan dan sumber mencukupi." },
+      { "code": "9.2", "label": "Pelan pengurusan risiko dan kesinambungan wujud." }
+    ]
+  }
+]
