@@ -69,19 +69,34 @@ export default function Tasks() {
           <p><b>Status:</b> {task.status}</p>
 
           {task.evidence_required && (
-            <>
-              <label>
-                Evidence Link (View-only):
-                <input
-                  type="text"
-                  placeholder="Paste Google Drive / OneDrive / USM link"
-                  value={task.evidence_link || ""}
-                  onChange={(e) => updateEvidence(idx, e.target.value)}
-                  style={{ width: "100%", marginTop: 5 }}
-                />
-              </label>
-            </>
-          )}
+  <>
+    <label>
+      Evidence Link (View-only):
+      <input
+        type="text"
+        placeholder="Paste Google Drive / OneDrive / USM link"
+        value={task.evidence_link || ""}
+        onChange={(e) => updateEvidence(idx, e.target.value)}
+        style={{ width: "100%", marginTop: 5 }}
+      />
+    </label>
+
+    {task.evidence_link && (
+      <p style={{ marginTop: 6 }}>
+        🔗{" "}
+        <a
+          href={task.evidence_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#4b2e83", fontWeight: "bold" }}
+        >
+          View Evidence
+        </a>
+      </p>
+    )}
+  </>
+)}
+
 
           <div style={{ marginTop: 10 }}>
             {task.status !== "Completed" && (
