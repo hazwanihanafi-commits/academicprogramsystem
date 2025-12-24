@@ -30,6 +30,26 @@
     "evidence_required": false
   },
   {
+    "id": "STU-02",
+    "title": "Endorse list of interviewed students for January intake",
+    "category": "Students",
+    "phase": "Admission",
+    "due": "2026-01-15",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "STU-03",
+    "title": "Approve student timetable and class placement",
+    "category": "Students",
+    "phase": "Teaching & Learning",
+    "due": "2026-01-31",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
     "id": "CQI-01",
     "title": "Review CQI outcomes and define action plan",
     "category": "CQI",
