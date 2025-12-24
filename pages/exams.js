@@ -5,8 +5,10 @@ import tasksData from "../data/program_head_tasks.json";
 export default function Exams() {
   const [tasks, setTasks] = useState([]);
 
-  // Load saved tasks or fallback to JSON
+  // Load saved tasks or fallback to JSON (client-side only)
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const saved = localStorage.getItem("ph_tasks");
     if (saved) {
       setTasks(JSON.parse(saved));
@@ -15,10 +17,11 @@ export default function Exams() {
     }
   }, []);
 
-  // Persist changes
   function persist(updated) {
     setTasks(updated);
-    localStorage.setItem("ph_tasks", JSON.stringify(updated));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("ph_tasks", JSON.stringify(updated));
+    }
   }
 
   function updateEvidence(index, value) {
@@ -43,23 +46,23 @@ export default function Exams() {
     const updated = [...tasks];
     updated[index].status = "Pending";
     updated[index].completed_on = "";
+    updated[index].evidence_link = "";
     persist(updated);
   }
 
-  // 🔍 Filter only exam-related tasks
+  // 🔍 Filter & sort by due date
   const examTasks = tasks
-  .filter((t) => t.category === "Examination")
-  .sort((a, b) => new Date(a.due) - new Date(b.due));
-
-  );
+    .filter((t) => t.category === "Examination")
+    .sort((a, b) => new Date(a.due) - new Date(b.due));
 
   return (
     <Layout>
       <h1>Examination Tasks</h1>
 
-      {examTasks.map((task, idx) => {
-        // Find original index in full task list
-        const originalIndex = tasks.findIndex(t => t.id === task.id);
+      {examTasks.map((task) => {
+        const originalIndex = tasks.findIndex(
+          (t) => t.id === task.id
+        );
 
         return (
           <div
@@ -112,7 +115,7 @@ export default function Exams() {
             )}
 
             <div style={{ marginTop: 10 }}>
-              {task.status !== "Completed" && (
+              {task.status !== "Completed" ? (
                 <button
                   onClick={() => markCompleted(originalIndex)}
                   style={{
@@ -126,9 +129,7 @@ export default function Exams() {
                 >
                   ✔ Mark as Completed
                 </button>
-              )}
-
-              {task.status === "Completed" && (
+              ) : (
                 <>
                   <p style={{ color: "green", marginTop: 6 }}>
                     Completed on {task.completed_on}
