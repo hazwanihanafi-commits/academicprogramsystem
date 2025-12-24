@@ -1,0 +1,115 @@
+[
+  {
+    "id": "GOV-01",
+    "title": "Confirm appointment as Program Head",
+    "category": "Governance",
+    "phase": "Appointment",
+    "due": "2025-12-01",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "STU-01",
+    "title": "Verify student intake & supervisor assignment",
+    "category": "Students",
+    "phase": "Intake",
+    "due": "2025-12-01",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": false
+  },
+  {
+    "id": "EXAM-NOV-01",
+    "title": "Upload vetted exam questions (Ikhtisas Nov 2026)",
+    "category": "Examination",
+    "phase": "Question Vetting",
+    "due": "2026-09-24",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "CQI-01",
+    "title": "Review CQI outcomes and define action plan",
+    "category": "CQI",
+    "phase": "Annual Review",
+    "due": "2026-1-15",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  }
+  [
+  {
+    "id": "EXAM-MAY-01",
+    "title": "Finalize examiner appointment (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Pre-Exam Planning",
+    "due": "2026-02-16",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "EXAM-MAY-02",
+    "title": "Draft and confirm examination schedule (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Scheduling",
+    "due": "2026-02-16",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": false
+  },
+  {
+    "id": "EXAM-MAY-03",
+    "title": "Conduct vetting meeting for exam questions (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Question Vetting",
+    "due": "2026-03-10",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "EXAM-MAY-04",
+    "title": "Upload vetted exam questions and answer schemes (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Question Submission",
+    "due": "2026-03-24",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "EXAM-MAY-05",
+    "title": "Submit list of barred / ineligible students (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Eligibility Control",
+    "due": "2026-04-06",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "EXAM-MAY-06",
+    "title": "Verify final examination readiness (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Final Clearance",
+    "due": "2026-04-10",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": false
+  },
+  {
+    "id": "EXAM-MAY-07",
+    "title": "Endorse examination results at Majlis Pemeriksa (Ikhtisas May 2026)",
+    "category": "Examination",
+    "phase": "Post-Exam Governance",
+    "due": "2026-05-25",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  }
+]
+
+]
