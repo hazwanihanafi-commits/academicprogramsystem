@@ -1,0 +1,1 @@
+export default ()=> <h1>Program Head Companion</h1>;
