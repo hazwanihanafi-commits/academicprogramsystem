@@ -10,6 +10,16 @@
     "evidence_required": true
   },
   {
+    "id": "GOV-02",
+    "title": "Submit list of external part-time / contract for service lecturers",
+    "category": "Governance",
+    "phase": "Academic Staffing",
+    "due": "2026-01-31",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
     "id": "STU-01",
     "title": "Verify student intake and supervisor assignment",
     "category": "Students",
@@ -18,16 +28,6 @@
     "mandatory": true,
     "status": "Pending",
     "evidence_required": false
-  },
-  {
-    "id": "EXAM-NOV-01",
-    "title": "Upload vetted exam questions (Ikhtisas Nov 2026)",
-    "category": "Examination",
-    "phase": "Question Vetting",
-    "due": "2026-09-24",
-    "mandatory": true,
-    "status": "Pending",
-    "evidence_required": true
   },
   {
     "id": "CQI-01",
@@ -105,6 +105,16 @@
     "category": "Examination",
     "phase": "Post-Exam Governance",
     "due": "2026-05-25",
+    "mandatory": true,
+    "status": "Pending",
+    "evidence_required": true
+  },
+  {
+    "id": "EXAM-NOV-01",
+    "title": "Upload vetted exam questions (Ikhtisas Nov 2026)",
+    "category": "Examination",
+    "phase": "Question Vetting",
+    "due": "2026-09-24",
     "mandatory": true,
     "status": "Pending",
     "evidence_required": true
