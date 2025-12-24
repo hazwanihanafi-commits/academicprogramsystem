@@ -47,8 +47,10 @@ export default function Exams() {
   }
 
   // 🔍 Filter only exam-related tasks
-  const examTasks = tasks.filter(
-    (t) => t.category === "Examination"
+  const examTasks = tasks
+  .filter((t) => t.category === "Examination")
+  .sort((a, b) => new Date(a.due) - new Date(b.due));
+
   );
 
   return (
