@@ -1,0 +1,20 @@
+{
+  "programme": "Master of Medicine (Nuclear Medicine)",
+  "accreditation_body": "MQA",
+  "status": "Accredited",
+  "valid_until": "2027-12-31",
+  "conditions": [
+    {
+      "code": "C1",
+      "description": "Improve documentation of clinical supervision",
+      "status": "Completed",
+      "evidence": "Supervisor appointment letters"
+    },
+    {
+      "code": "C2",
+      "description": "Strengthen CQI reporting",
+      "status": "Ongoing",
+      "evidence": "Annual CQI report"
+    }
+  ]
+}
