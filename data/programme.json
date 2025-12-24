@@ -1,0 +1,158 @@
+{
+  "programme_code": "MMedNM",
+  "programme_name": "Master of Medicine (Nuclear Medicine)",
+  "faculty": "Pusat Pakar Klinikal dan Penyelidikan Kanser (PPKPK)",
+  "institution": "Universiti Sains Malaysia",
+  "campus": "SAINS@BERTAM, Kepala Batas, Pulau Pinang",
+  "duration": {
+    "mode": "Full-time",
+    "minimum_years": 4,
+    "maximum_years": 7
+  },
+  "programme_overview": "The Master of Medicine (Nuclear Medicine) is a four-year postgraduate clinical programme designed to produce competent and well-versed nuclear medicine specialists. The programme trains medical graduates in diagnostic and therapeutic nuclear medicine, radiopharmaceutical handling, medical physics, dosimetry, radiation protection, and research methodologies. Graduates are equipped to face the challenges of modern nuclear medicine practice through structured clinical training and research exposure.",
+  "unique_features": [
+    "The only Master of Medicine (Nuclear Medicine) programme offered in Malaysia",
+    "First cohort of nuclear medicine physicians graduated in 2012",
+    "More than 37 nuclear medicine physicians produced and serving hospitals nationwide",
+    "Strong multidisciplinary clinical, academic and research ecosystem",
+    "Use of advanced imaging technologies such as SPECT-CT"
+  ],
+  "learning_methods": [
+    "Formal taught courses",
+    "Laboratory sessions",
+    "Clinical training in accredited nuclear medicine centres",
+    "Research dissertation",
+    "Hands-on practical sessions",
+    "Seminars and journal clubs",
+    "Problem Based Learning (PBL)",
+    "Online self-learning via e-learning platforms"
+  ],
+  "programme_educational_objectives": [
+    {
+      "code": "PEO1",
+      "description": "Graduates advocate clinical competency in nuclear medicine skills and knowledge through evidence-based medicine as nuclear medicine physicians."
+    },
+    {
+      "code": "PEO2",
+      "description": "Graduates embrace lifelong learning and self-development through creativity and technological innovation in nuclear medicine."
+    },
+    {
+      "code": "PEO3",
+      "description": "Graduates demonstrate the ability to develop, lead, and sustain a conducive working and training environment."
+    },
+    {
+      "code": "PEO4",
+      "description": "Graduates demonstrate competency to conduct clinical research adhering to ethics and professionalism."
+    }
+  ],
+  "programme_learning_outcomes": [
+    {
+      "code": "PLO1",
+      "domain": "Knowledge and Understanding",
+      "description": "Demonstrate a comprehensive and systematic approach to solving complex healthcare issues related to nuclear medicine using evidence-based medical knowledge."
+    },
+    {
+      "code": "PLO2",
+      "domain": "Cognitive Skills",
+      "description": "Contribute substantially to the area of specialisation through originality and independent research that meets international standards."
+    },
+    {
+      "code": "PLO3",
+      "domain": "Practical Skills",
+      "description": "Competently perform diagnostic and therapeutic nuclear medicine procedures independently with high accuracy."
+    },
+    {
+      "code": "PLO4",
+      "domain": "Interpersonal Skills",
+      "description": "Work collaboratively and ethically with patients, peers, healthcare teams and the wider community."
+    },
+    {
+      "code": "PLO5",
+      "domain": "Communication Skills",
+      "description": "Communicate effectively in clinical, academic and professional nuclear medicine settings."
+    },
+    {
+      "code": "PLO6",
+      "domain": "Digital Skills",
+      "description": "Use appropriate digital technologies and software to enhance study, research and clinical practice."
+    },
+    {
+      "code": "PLO7",
+      "domain": "Numeracy Skills",
+      "description": "Integrate quantitative analysis to support evidence-based patient care and research."
+    },
+    {
+      "code": "PLO8",
+      "domain": "Leadership, Autonomy and Responsibility",
+      "description": "Demonstrate leadership, autonomy and responsibility in clinical planning, resource management and problem-solving."
+    },
+    {
+      "code": "PLO9",
+      "domain": "Personal Skills",
+      "description": "Incorporate independent lifelong learning and self-development to enhance professional growth."
+    },
+    {
+      "code": "PLO10",
+      "domain": "Entrepreneurial Skills",
+      "description": "Demonstrate an entrepreneurial mindset in advancing nuclear medicine practice."
+    },
+    {
+      "code": "PLO11",
+      "domain": "Ethics and Professionalism",
+      "description": "Demonstrate ethical conduct, professionalism and adherence to regulatory standards in patient care and research."
+    }
+  ],
+  "course_structure": [
+    {
+      "year": 1,
+      "location": "PPKPK USM Bertam",
+      "focus": [
+        "Basic clinical imaging (nuclear medicine and radiology)",
+        "Applied medical physics and nuclear pharmacy",
+        "Basic clinical anatomy and physiology"
+      ]
+    },
+    {
+      "year": "2–3",
+      "location": "Accredited Nuclear Medicine Centres",
+      "focus": [
+        "Specialist nuclear medicine in-training",
+        "Advanced clinical nuclear medicine",
+        "Clinical pathophysiology"
+      ]
+    },
+    {
+      "year": 4,
+      "location": "Accredited Nuclear Medicine Centres",
+      "focus": [
+        "Advanced nuclear medicine specialist training"
+      ]
+    }
+  ],
+  "career_pathways": [
+    "Nuclear Medicine Specialist",
+    "Medical Lecturer"
+  ],
+  "admission_requirements": [
+    "MBBS or MD with at least 2 years of clinical experience",
+    "Registered with the Malaysian Medical Council",
+    "Foreign applicants must complete 3–6 months of clinical attachment in Malaysia",
+    "Fulfil minimum English language requirements",
+    "Passed Medical Specialist Pre-Entrance Examination (MedEx)",
+    "Passed admission interview"
+  ],
+  "contact_information": {
+    "programme_coordinator": {
+      "name": "Dr. Hazlin Hashim",
+      "designation": "Physician / Consultant (Nuclear Medicine)",
+      "email": "hazlinhashim@usm.my",
+      "telephone": "+6045622229"
+    },
+    "institute_contact": {
+      "address": "Division of Academic and International, Advanced Medical & Dental Institute, SAINS@BERTAM, 13200 Kepala Batas, Penang, Malaysia",
+      "telephone": "+604-5622352",
+      "fax": "+604-5622468",
+      "website": "http://www.amdi.usm.my/academic-home"
+    }
+  }
+}
